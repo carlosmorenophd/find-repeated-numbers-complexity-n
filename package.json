@@ -1,0 +1,19 @@
+{
+  "name": "find-repeated-numbers-complexity-n",
+  "version": "1.0.0",
+  "description": "Find duplicates number on array by complexity o(n)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "complexity",
+    "n",
+    "find",
+    "duplicates",
+    "on",
+    "array"
+  ],
+  "author": "Juan Carlos Moreno Sanchez",
+  "license": "ISC"
+}
