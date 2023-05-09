@@ -4,6 +4,7 @@
   "description": "Find duplicates number on array by complexity o(n)",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +16,8 @@
     "array"
   ],
   "author": "Juan Carlos Moreno Sanchez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
