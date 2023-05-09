@@ -1,6 +1,6 @@
 {
   "name": "find-repeated-numbers-complexity-n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find duplicates number on array by complexity o(n)",
   "main": "index.js",
   "scripts": {
