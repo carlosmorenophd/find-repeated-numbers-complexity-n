@@ -1,4 +1,4 @@
-# Problem finding repeated numbers in an array using time complexity $\Omicron(n)$
+# Problem finding repeated numbers in an array using time complexity $O(n)$
 
 ## Algorithm
 
@@ -21,7 +21,7 @@ numbers.forEach(element => {
 
 The elements are executed $n$ times, but the forEach function is completely parallel, so the time is reduced by the number of processors, minus the time it takes for the semaphores to access the count dictionary.
 
-$$\Omicron(\frac{n}{p})$$
+$$O(\frac{n}{p})$$
 
 ## Execution
 
@@ -32,7 +32,7 @@ npm i
 ```
 3. Run command to run the server
 ```
-npm runstart
+npm run start
 ```
 4. Perform a POST using curl to the server with the list of numbers as a parameter in json
 ```bash
@@ -64,7 +64,7 @@ url -X POST http://localhost:3000/find_duplicate -H "Content-Type: application/j
 }
 ```
 
-# Problema para buscar los números repetidos en un arreglo utilizando una complejidad temporal $\Omicron(n)$
+# Problema para buscar los números repetidos en un arreglo utilizando una complejidad temporal $O(n)$
 
 ## Algoritmo
 
@@ -86,7 +86,7 @@ numbers.forEach(element => {
 
 Los elementos se ejecutan $n$ veces, pero la función forEach es completamente en paralelo, por lo cual el tiempo se ve reducción por el número de procesadores, menos el tiempo que tarda en que los semáforos, permiten acceder al diccionario count
 
-$$\Omicron(\frac{n}{p})$$
+$$O(\frac{n}{p})$$
 
 ## Ejecucion
 
